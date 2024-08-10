@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # DQN training progress figure (e.g. Fig. 5.3 + Fig. 5.4)
 # CSV files downloaded from tensorboard
 
-path = '/data/dqn/scenario x/'
+path = './data/dqn/scenario 1/'
 data1 = np.genfromtxt(path + 'episodes.csv', delimiter=',')
 data2 = np.genfromtxt(path + 'rewards.csv', delimiter=',')
 x1 = data1[1:,1]

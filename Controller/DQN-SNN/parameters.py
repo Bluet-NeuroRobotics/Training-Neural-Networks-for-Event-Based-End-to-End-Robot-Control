@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-path = "./data/session_xyz" # Path for saving data
+path = "./data/dqn/scenario 1" # Path for saving data
 
 #================ DQN Controller ===============#
 

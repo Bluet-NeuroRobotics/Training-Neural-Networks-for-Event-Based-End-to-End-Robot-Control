@@ -2,7 +2,7 @@
 
 import numpy as np
 
-path = "./data/session_xyz"			# Path for saving data
+path = "./data/rstdp/scenario 1"			# Path for saving data
 
 # Input image
 dvs_resolution = [128,128]			# Original DVS frame resolution

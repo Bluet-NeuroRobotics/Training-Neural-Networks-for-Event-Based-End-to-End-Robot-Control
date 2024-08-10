@@ -21,9 +21,9 @@ x6 = x5 + env.d6_outer
 
 lim = 0.13
 
-path1 = '/data/dqn/scenario 1'
-path2 = '/data/braitenberg/scenario 1'
-path3 = '/data/rstdp/scenario 1'
+path1 = './data/dqn/scenario 1'
+path2 = './data/braitenberg/scenario 1'
+path3 = './data/rstdp/scenario 1'
 
 h5f = h5py.File(path1 + '/dqn_performance_data.h5', 'r')
 h5f2 = h5py.File(path1 + '/snn_performance_data.h5', 'r')

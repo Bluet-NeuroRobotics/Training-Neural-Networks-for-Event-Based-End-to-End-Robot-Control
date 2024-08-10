@@ -23,7 +23,7 @@ yi4 = yi3 + env.d4_inner
 yi5 = yi4 + env.d5_inner
 yi6 = yi5 + env.d6_inner
 
-path = "/data/rstdp/scenario x"
+path = "./data/rstdp/scenario 1"
 h5f = h5py.File(path + '/rstdp_data.h5', 'r')
 
 xlim = 100000

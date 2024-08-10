@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # R-STDP weights learned
 # Fig. 5.7, Fig. 5.8, Fig. 5.10
 
-path = "/data/rstdp/scenario x"
+path = "./data/rstdp/scenario 1"
 h5f = h5py.File(path + '/rstdp_data.h5', 'r')
 
 w_l = np.array(h5f['w_l'], dtype=float)

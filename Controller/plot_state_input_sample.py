@@ -22,7 +22,7 @@ class dataset():
 		idx = np.random.choice(self.states.shape[0],size=batchsize,replace=False)
 		return [self.states[idx], self.actions[idx]]
 
-path = '/data/dqn/scenario x/'
+path = './data/dqn/scenario 1/'
 data = dataset(path)
 
 for i in range(100):

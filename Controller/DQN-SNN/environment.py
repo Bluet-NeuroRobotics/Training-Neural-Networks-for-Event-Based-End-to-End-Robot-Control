@@ -22,7 +22,7 @@ class VrepEnvironment():
 		self.dvs_sub = rospy.Subscriber('dvsData', Int8MultiArray, self.dvs_callback)
 		self.left_pub = rospy.Publisher('leftMotorSpeed', Float32, queue_size=1)
 		self.right_pub = rospy.Publisher('rightMotorSpeed', Float32, queue_size=1)
-		self.reset_pub = rospy.Publisher('resetRobot', Bool, queue_size=None)
+		self.reset_pub = rospy.Publisher('resetRobot', Bool, queue_size=1) # it will show a warning about no quene size is defined
 		self.v_forward = speed
 		self.v_turn = turn
 		self.resolution = resolution
